@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
+.mainPage {
+	--font-main: "Ubuntu Mono", sans-serif;
+	padding: 1rem 3rem;
+	text-align: left;
+}
+
+.mainPage__title {
+	font-size: 1.8rem;
+	font-weight: 500;
+	color: hsla(0, 0%, 31%, 1);
+	margin: 2rem 0;
+}
+
+.mainPage p {
+	font-family: var(--font-main);
+	margin: 0.5rem 0;
+	font-size: 0.8rem;
+}
+
+.mainPage section {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin: 1rem 0;
+}
+
+footer {
+	margin-top: 2rem;
+	text-align: left;
+	font-size: 0.8rem;
+	color: #a9a9a9;
+	font-family: "Montserrat", sans-serif;
+}
+
+footer a {
+	font-weight: 700;
+	color: #a9a9a9;
+	font-family: "Montserrat", sans-serif;
+	text-decoration: none;
+}
+.button-name {
+	font-size: 0.8em;
+}
+
+.hover-text {
+	color: rgba(var(--hover-text-color), 1);
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-end;
+	gap: 3em;
+	margin: 0.8em 0;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 0.2em;
+}
+.error {
+	color: #d32f2f;
+}
+.focus {
+	color: #2962ff;
+}
